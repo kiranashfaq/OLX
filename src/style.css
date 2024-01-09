@@ -1,0 +1,345 @@
+.main-1 {
+  background-color: #f7f8f8;
+  width: 100%;
+  display: flex;
+  height: 10vh;
+}
+.logo1 {
+  width: 3%;
+  height: 5vh;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+.icon-div {
+  border-radius: 50%;
+  background-color: rgb(235, 235, 235);
+  height: 50%;
+  margin-top: 1%;
+  padding: 6px;
+
+  margin-left: 2%;
+}
+.icon-name {
+  margin-top: 1.7%;
+  margin-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+  font-size: 13px;
+}
+.icon-name:hover {
+  color: blue;
+}
+.bib:hover {
+  color: blue;
+}
+.logo2 {
+  width: 90%;
+  height: 9vh;
+}
+.dropdown {
+  width: 265px;
+  border: 2px solid black;
+  background-image: url(img/mg-removebg-preview.png);
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  padding: 3px 40px;
+  background-position-y: center;
+  background-position: 5%;
+}
+.inp {
+  width: 700px;
+  height: 7vh;
+  padding-left: 5px;
+  padding-right: 40px;
+  margin-left: 2.5%;
+  border: 2px solid black;
+}
+.fa-mg {
+  padding-top: 2%;
+  background-color: black;
+  width: 7%;
+  height: 7vh;
+  padding-left: 2%;
+}
+.for-hov:focus {
+  border: 2px solid rgb(172, 233, 187);
+}
+.main-5 {
+  display: block;
+  margin-left: 2%;
+}
+.login {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: bold;
+  /* margin-left: -7%; */
+}
+.line {
+  background-color: #000000;
+  border-radius: 4px;
+  width: 50px;
+  height: 2px;
+  margin-left: 10%;
+  margin-top: -60%;
+}
+.sell-div {
+  display: flex;
+  margin-left: 2%;
+  margin-top: -5px;
+}
+.sell-text {
+  display: flex;
+  margin-left: -60%;
+  margin-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.fa-plus {
+  margin-top: 19%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.banner-img {
+  width: 50%;
+}
+.all {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 3%;
+}
+.main-categories-div {
+  display: flex;
+  justify-content: center;
+}
+.categories-img {
+  width: 65%;
+  margin-left: 10%;
+}
+.categories {
+  display: block;
+}
+.categories-name {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-top: 3%;
+  /* margin-left: -10%; */
+  /* padding-left: 10%; */
+  text-align: center;
+}
+.card-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.card-div {
+  margin-left: 2%;
+  width: 25%;
+}
+.card-img {
+  border-radius: 7px;
+  /* width: 100%; */
+}
+.card-text {
+  border-left: 1px solid #9bc0c5;
+  border-right: 1px solid #9bc0c5;
+  border-bottom: 1px solid #9bc0c5;
+}
+.card1 {
+  margin-left: 12%;
+}
+.location {
+  margin-top: -2.5%;
+}
+.weeks {
+  font-size: 14px;
+  margin-bottom: -4.7%;
+  margin-top: -2%;
+}
+
+.fa-heart {
+  margin-left: 50%;
+}
+@media screen and (max-width: 768px) {
+  .main-1 {
+    align-items: center;
+    /* margin-bottom: -50%; */
+    height: 7vh;
+  }
+  .logo1 {
+    width: 13%;
+    height: 7vh;
+    margin-right: 3%;
+  }
+  .icon-name {
+    margin-right: 3%;
+  }
+  /* .div-login {
+    display: flex;
+    margin-top: 5%;
+  } */
+  .inp {
+    width: 80%;
+    height: 7vh;
+    padding-left: 5px;
+    padding-right: 40px;
+    margin-left: 0.7%;
+    border: 2px solid black;
+    margin-top: 5%;
+  }
+  .fa-mg {
+    padding-top: 6%;
+    background-color: black;
+    width: 10%;
+    height: 7vh;
+    padding-left: 2%;
+    position: absolute;
+    left: 80%;
+    top: 45%;
+    margin-left: -2%;
+  }
+  .main-5 {
+    display: block;
+    margin-left: 2%;
+  }
+  .login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: bold;
+    margin-top: 5%;
+    /* margin-left: -7%; */
+  }
+  .line {
+    background-color: #000000;
+    border-radius: 4px;
+    width: 60px;
+    height: 2px;
+    margin-left: -1%;
+    margin-top: -8%;
+    position: absolute;
+    /* margin-top: -60%; */
+    /* position: absolute; */
+  }
+  .sell-div {
+    display: flex;
+    margin-left: 50%;
+    margin-top: -17%;
+  }
+  .sell-text {
+    display: flex;
+    margin-left: -60%;
+    margin-top: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .fa-plus {
+    margin-top: 19%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .nav-div {
+    margin-top: 0%;
+  }
+  .main-banner-div {
+    margin-top: 10%;
+    margin-left: -13%;
+  }
+  .b-img {
+    width: 100%;
+  }
+  .categorie-main-div {
+    display: flex;
+    overflow: scroll;
+    /* justify-content: space-between; */
+  }
+  .categorie-main-div::-webkit-scrollbar {
+    display: none;
+  }
+  .categories {
+    /* margin-left: 5%; */
+    margin: 0px 10px 0px 10px;
+  }
+  .categories-img {
+    /* min-width: auto; */
+    width: 80%;
+    height: 80%;
+  }
+  .categories-name {
+    font-size: 10px;
+  }
+  .c-img {
+    width: 40px;
+    height: 40px;
+  }
+  .animal {
+    margin-left: -5%;
+  }
+  .card-main-div {
+    overflow-x: scroll;
+    width: 100%;
+   
+  }
+  .card-main-div::-webkit-scrollbar {
+    display: none;
+  }
+  .card-div {
+    width: 80%;
+   
+  }
+  .card1 {
+    margin-left: 880px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .fa-mg {
+    padding-top: 6%;
+    background-color: black;
+    width: 10%;
+    height: 7vh;
+    padding-left: 2%;
+    position: absolute;
+    left: 80%;
+    top: 52%;
+    margin-left: -2%;
+  }
+
+  .sell-div {
+    display: flex;
+    margin-left: 50%;
+    margin-top: -17%;
+  }
+  .sell-text {
+    display: flex;
+    margin-left: -56%;
+    margin-top: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .fa-plus {
+    margin-top: 19%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .card1 {
+    margin-left: 920px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .fa-mg {
+    padding-top: 6%;
+    background-color: black;
+    width: 10%;
+    height: 7vh;
+    padding-left: 2%;
+    position: absolute;
+    left: 80%;
+    top: 49%;
+    margin-left: -2%;
+  }
+}
